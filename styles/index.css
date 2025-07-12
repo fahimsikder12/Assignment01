@@ -1,0 +1,67 @@
+@import "utilities.css";
+
+/* font  */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+}
+
+header {
+  background: url("../images/Hero-bg.png") no-repeat center center/cover;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+section {
+  padding: 50px 0;
+}
+
+.banner {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.banner button {
+  margin: 20px 0;
+}
+button:hover {
+  background: orange;
+}
+
+.bg-orange {
+  color: orange;
+}
+
+img {
+  width: 100%;
+}
+
+/* main  */
+
+.action {
+  display: flex;
+  justify-content: space-between;
+}
+.action-img img {
+  border-radius: 24px;
+}
+.action-text-content p {
+  margin: 20px 0;
+}
+
+p {
+  color: rgba(37, 36, 50, 0.5);
+  font-size: 24px;
+  font-weight: 400;
+}
